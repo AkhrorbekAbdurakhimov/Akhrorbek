@@ -1,0 +1,39 @@
+{
+  "name": "system-v3b",
+  "version": "1.1.0",
+  "description": "System backend v3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muhammadsher/System-v3b.git"
+  },
+  "keywords": [
+    "System"
+  ],
+  "author": "Mukhammadsher Shermamatov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muhammadsher/System-v3b/issues"
+  },
+  "homepage": "https://github.com/Muhammadsher/System-v3b#readme",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "@hapi/joi": "^17.1.0",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.6.1",
+    "compare-versions": "^3.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "is-port-reachable": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "pg": "^7.18.1",
+    "ping": "^0.2.2"
+  }
+}
